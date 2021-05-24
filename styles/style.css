@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  display: block;
+}
+
+#container {
+  display: flex;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 100px auto 0;
+  padding-bottom: 50px;
+  border-bottom: 1px solid lightgrey;
+}
+
+h1 {
+  font-weight: 800;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  scroll-margin-inline-end: 0px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.top-post {
+  display: flex;
+  width: 100%;
+}
+
+.top-post > img {
+  margin: 20px 0;
+  border: 1px soild grey;
+}
+
+.top-post > div {
+  width: 50%;
+}
+
+.all-posts {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.all-posts {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post {
+  width: 31%;
+}
+
+.post > img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid grey;
+
+}
+
